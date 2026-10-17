@@ -14,9 +14,9 @@ You'll want to find $V_{Th}$ by finding the open circuit voltage across nodes _a
 <details>
 <summary>Hint 2 - Finding Thevenin resistance</summary>
 
-In this scenario, if we short nodes _a_ and _b_, since we get $i_{sc}=0$, we still won't be able to calculate the Thevenin resistance.
+In this scenario, when we short nodes _a_ and _b_, we get $i_{sc}=0$. This isn't helpful since we still won't be able to calculate the Thevenin resistance.
 
-Instead, you'll want to attach a known voltage source, which I'll call $V_k$, across nodes _a_ and _b_. From here, you can calculate how much current it delivers to the circuit, $i_k$. If we model the circuit as a single resistor $R_{Th}$, we can then find the this value by calculating:
+Instead, you'll want to attach a known voltage source, which I'll call $V_k$, across nodes _a_ and _b_. From here, you can calculate how much current it delivers to the circuit, $i_k$. If we model the circuit as a single resistor $R_{Th}$, we can then find the resistance value by calculating:
 
 $$R_{Th}=\frac{V_k}{i_k}$$
 </details>

@@ -14,13 +14,13 @@ The input to the positive node $v_p$ of the op amp can be calculated using volta
 <details>
 <summary>Hint 2 - Calculating negative input voltage</summary>
 
-The input to the negative node $v_n$ of the op amp can be calculated using voltage division. Since you're not given a value $V_0$, you can write your expressions in terms of $v_0$. We also know that the positive and negative nodes are equal.
+The input to the negative node $v_n$ of the op amp can be calculated using voltage division. Since you're not given a value $v_0$, you can write your expressions in terms of $v_0$. We also know that the positive and negative nodes are equal.
 </details>
 
 <details>
 <summary>Hint 3 - Finding Thevenin voltage</summary>
 
-You should start by trying to find $V_th$. This occurs when you have open circuit -- in this case, it means that $R_L$ approaches infinity. In this configuration, $v_0 = v_L = V_{Th}$. Your answer will be in terms of $v_s$.
+You should start by trying to find $V_{Th}$. This occurs when you have open circuit -- in this case, it means that $R_L$ approaches infinity. In this configuration, $v_0 = v_L = V_{Th}$. Your answer will be in terms of $v_s$.
 </details>
 
 <details>
